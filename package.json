@@ -1,0 +1,14 @@
+{
+  "name": "nothread",
+  "version": "1.0.0",
+  "description": "Modify an email msg to prevent threading",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "author": "Mark Wilkerson <mark@markwilkerson.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
