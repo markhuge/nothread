@@ -1,14 +1,14 @@
 {
   "name": "nothread",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Modify an email msg to prevent threading",
   "main": "index.js",
   "scripts": {
-    "test": "tape test"
+    "test": "tap --cov --coverage-report=text test/*.js"
   },
   "author": "Mark Wilkerson <mark@markwilkerson.me>",
   "license": "MIT",
   "devDependencies": {
-    "tape": "^4.2.2"
+    "tap": "^10.7.2"
   }
 }
